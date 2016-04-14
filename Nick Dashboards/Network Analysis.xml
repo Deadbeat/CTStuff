@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="b937f05e42806b8588e3d03b93303321" name="Network Analysis" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="788497" backgroundImageLayout="tiled" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b1_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="10,10,10,10" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+          
+          <Criterion attribute="Clip" comparator="Is" displayInToolbar="false" value="##ALL##" />
+        
+        
+        
+        </Filter>
+      
+      
+        
+        <Widgets>
+          
+          <Widget color="ffffff" height="-1" id="b4107155-35d7-4689-aa21-209b9088c1ed" linkedDashboardName="/Nick Dashboards/Load Analytics" position="2,2" showTitleBar="true" title="Bytes Sent" widgetTypeInternalID="f928aab5-342d-43c9-a02c-18e5287e97e7">
+        
+        
+            
+            <CustomSettings>
+          
+          
+              
+              <Setting key="plot_type" value="area" />
+          
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              
+              <Setting key="y_axis_min_value" value="" />
+          
+          
+              
+              <Setting key="show_data_point_markers" value="false" />
+          
+          
+              
+              <Setting key="chart_color_theme" value="Default" />
+        
+        
+            
+            </CustomSettings>
+        
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            
+            </Filter>
+      
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="-1" id="bc9fb5b8-d6a9-4ff9-99ec-f6b1a27c430d" linkedDashboardName="/Nick Dashboards/Load Analytics" position="3,2" showTitleBar="true" title="Bytes Received" widgetTypeInternalID="59e9e5fa-bde3-40cc-bf28-30330b289d1f">
+        
+        
+            
+            <CustomSettings>
+          
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              
+              <Setting key="plot_type" value="area" />
+          
+          
+              
+              <Setting key="chart_color_theme_offset" value="1" />
+          
+          
+              
+              <Setting key="y_axis_min_value" value="" />
+          
+          
+              
+              <Setting key="show_data_point_markers" value="false" />
+          
+          
+              
+              <Setting key="chart_color_theme" value="Default" />
+        
+        
+            
+            </CustomSettings>
+        
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            
+            </Filter>
+      
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="110" id="652bae68-d952-4ab7-8c74-b75986018bb6" linkedDashboardName="/Nick Dashboards/Performance" position="1,1" showTitleBar="true" title="Fundamentals" widgetTypeInternalID="9f55c999-66d7-4205-b846-1620483478ac">
+        
+            
+            <CustomSettings>
+          
+              
+              <Setting key="include_elapsed_time" value="true" />
+          
+              
+              <Setting key="include_page_count" value="false" />
+          
+              
+              <Setting key="include_request_message_count" value="false" />
+          
+              
+              <Setting key="include_composition_status" value="false" />
+          
+              
+              <Setting key="include_chain_count" value="false" />
+          
+              
+              <Setting key="include_avg_response_time" value="true" />
+          
+              
+              <Setting key="include_error_script_count" value="true" />
+          
+              
+              <Setting key="include_current_clip_count" value="false" />
+          
+              
+              <Setting key="include_clip_count" value="false" />
+          
+              
+              <Setting key="include_result_summary" value="false" />
+          
+              
+              <Setting key="include_composition_debug_mode" value="false" />
+          
+              
+              <Setting key="include_collections_rate" value="false" />
+          
+              
+              <Setting key="include_total_bytes" value="false" />
+          
+              
+              <Setting key="include_current_virtual_users" value="true" />
+          
+              
+              <Setting key="include_result_name" value="false" />
+          
+              
+              <Setting key="collections_rate_settings" value="{&quot;entries&quot;:[{&quot;collections&quot;:[&quot;All&quot;],&quot;collectionType&quot;:&quot;Transaction&quot;,&quot;startedCompleted&quot;:&quot;started&quot;,&quot;per&quot;:&quot;minute&quot;,&quot;titleType&quot;:&quot;custom&quot;,&quot;customTitle&quot;:&quot;&quot;}]}" />
+          
+              
+              <Setting key="include_start_time" value="false" />
+          
+              
+              <Setting key="include_composition_save_details" value="false" />
+          
+              
+              <Setting key="include_effective_throughput" value="true" />
+          
+              
+              <Setting key="include_result_description" value="false" />
+          
+              
+              <Setting key="include_end_time" value="false" />
+          
+              
+              <Setting key="include_script_count" value="false" />
+          
+              
+              <Setting key="include_group_count" value="false" />
+          
+              
+              <Setting key="include_composition_description" value="false" />
+          
+              
+              <Setting key="include_sent_message_count" value="false" />
+          
+              
+              <Setting key="include_error_message_count" value="true" />
+          
+              
+              <Setting key="include_composition_name" value="false" />
+          
+              
+              <Setting key="include_transaction_count" value="false" />
+          
+              
+              <Setting key="include_composition_preview_mode" value="false" />
+          
+              
+              <Setting key="include_virtual_users_running" value="true" />
+        
+            
+            </CustomSettings>
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+        
+              
+              <Criterion attribute="Date/Time" comparator="13" displayInToolbar="true" secondaryValue="" tertiaryValue="US/Pacific" value="" />
+            
+            </Filter>
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="-1" id="63ffae8a-1943-4593-8068-c4c3fadf28ec" linkedDashboardName="/Nick Dashboards/Load Analytics" position="2,1" showTitleBar="true" title="Bandwidth Usage per Domain" widgetTypeInternalID="17ff4e85-005b-4f17-bb5b-d4aa878dbdaf">
+        
+        
+            
+            <CustomSettings>
+          
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+        
+        
+            
+            </CustomSettings>
+        
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            
+            </Filter>
+      
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="-1" id="931213a6-0cb4-4496-aab8-b999681b8a5a" linkedDashboardName="/Nick Dashboards/Load Analytics" position="3,1" showTitleBar="true" title="Bandwidth by Collection" widgetTypeInternalID="3c53e158-a7ba-4ed1-b13f-25ffc28a19dd">
+        
+        
+            
+            <CustomSettings>
+          
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              
+              <Setting key="chart_color_theme_offset" value="2" />
+          
+          
+              
+              <Setting key="chart_color_theme" value="Default" />
+        
+        
+            
+            </CustomSettings>
+        
+        
+            
+            <Filter enabled="true" showToolbar="false" unionType="all">
+          
+          
+              
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+        
+        
+            
+            </Filter>
+      
+      
+          
+          </Widget>
+        
+        </Widgets>
+      
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="37" internalID="59e9e5fa-bde3-40cc-bf28-30330b289d1f" name="Bytes Received" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3214" internalID="17ff4e85-005b-4f17-bb5b-d4aa878dbdaf" name="Bandwidth Usage per Domain" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="36" internalID="f928aab5-342d-43c9-a02c-18e5287e97e7" name="Bytes Sent" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="16092" internalID="3c53e158-a7ba-4ed1-b13f-25ffc28a19dd" name="Bandwidth by Collection" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="66" internalID="9f55c999-66d7-4205-b846-1620483478ac" name="Fundamentals" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

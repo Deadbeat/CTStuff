@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="cbe06d32a925a24f747721b0c2089378" name="Multi-Result Template Dashboard" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b0_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        <Widgets>
+          <Widget color="26396d" height="-1" id="6bb3eef4-3f75-4d24-bf4d-5717b745a5bc" position="2,4" showTitleBar="true" title="Multi-Result Max Response Time" widgetTypeInternalID="8366ef17-bb65-4ac2-899b-7d4ccadae3fb" />
+          <Widget color="26396d" height="-1" id="f6bf212a-15b9-4a24-b7ab-53dfba991c54" position="1,3" showTitleBar="true" title="Multi-Result Avg Response Time" widgetTypeInternalID="11804771-ac92-4312-975a-b938f42f6ceb" />
+          <Widget color="26396d" height="-1" id="f8481a45-2af6-410f-9ef9-a7be256314ce" position="2,1" showTitleBar="true" title="Average Collection Duration" widgetTypeInternalID="fa7c69a8-e81a-4bd2-b088-1f1032073fdb">
+        
+            <CustomSettings>
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="false" unionType="all">
+          
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+        
+            </Filter>
+      
+          </Widget>
+          <Widget color="26396d" height="-1" id="26871ade-1e97-4b7a-9070-9cfb54c62b05" position="2,3" showTitleBar="true" title="Send Rate" widgetTypeInternalID="5cad7924-924b-43b7-b7e0-665d89ccdf07" />
+          <Widget color="26396d" height="-1" id="1d927f9a-f023-4d0b-95da-67cfcc07b96f" position="1,1" showTitleBar="true" title="Virtual Users vs. Average Response Time" widgetTypeInternalID="8aa46bd3-9f56-4a20-84c9-7a99946b9db7">
+        
+            <SubordinateWidgetSettings>
+          
+              <SubordinateWidget />
+          
+              <SubordinateWidget />
+        
+            </SubordinateWidgetSettings>
+        
+            <CustomSettings>
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Virtual Users" />
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="Average Response Time" />
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="CountOfSimultaneousVirtualUsersWidgetLogic,AverageResponseTime" />
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+        
+            </CustomSettings>
+      
+          </Widget>
+          <Widget color="26396d" height="-1" id="66c740d9-e6ad-45d7-a975-c87a38667b5e" position="2,2" showTitleBar="true" title="Sessions/Min" widgetTypeInternalID="3f765844-dac4-46ae-8c86-3560aa32f4e1">
+        
+            <CustomSettings>
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              <Setting key="plot_type" value="line" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+          
+              <Setting key="y_axis_min_value" value="" />
+          
+              <Setting key="show_data_point_markers" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="false" unionType="all">
+          
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+          
+              <Criterion attribute="Collection Name" comparator="In" displayInToolbar="false" value="">
+            
+                <ValueList>
+              
+                  <Value>S01: Home Page</Value>
+            
+                </ValueList>
+          
+              </Criterion>
+        
+            </Filter>
+      
+          </Widget>
+          <Widget color="26396d" height="-1" id="b9a83bc0-2f1a-4547-ae70-cd6b25c1cfcf" position="1,2" showTitleBar="true" title="Collections Completed" widgetTypeInternalID="317c0158-fea8-47b8-863f-7ec843d632e1">
+        
+            <CustomSettings>
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="false" unionType="all">
+          
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+        
+            </Filter>
+      
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="99" internalID="8366ef17-bb65-4ac2-899b-7d4ccadae3fb" name="Multi-Result Max Response Time" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="98" internalID="11804771-ac92-4312-975a-b938f42f6ceb" name="Multi-Result Avg Response Time" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="30" internalID="fa7c69a8-e81a-4bd2-b088-1f1032073fdb" name="Average Collection Duration" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="110" internalID="5cad7924-924b-43b7-b7e0-665d89ccdf07" name="Send Rate" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="8aa46bd3-9f56-4a20-84c9-7a99946b9db7" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3218" internalID="3f765844-dac4-46ae-8c86-3560aa32f4e1" name="Collections Completed" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3218" internalID="317c0158-fea8-47b8-863f-7ec843d632e1" name="Collections Completed" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

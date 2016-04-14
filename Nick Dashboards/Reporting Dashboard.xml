@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="a03b9ad1dd5cb578f0a37f7711c96403" name="Reporting Dashboard" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b1_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        <Filter enabled="true" showToolbar="true" unionType="all">
+          
+          <Criterion attribute="Collection" comparator="Is" displayInToolbar="true" value="Transaction" />
+        
+        </Filter>
+      
+        <Widgets>
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="true" height="-1" id="55b27cfe-e4e9-4ac5-8d39-e9c344e70de9" minHeight="-1" parentWidgetID="" position="2,1" showTitleBar="true" title="Collections Started" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="5bb7acf0-55f7-4f2d-9e69-24b5201f1152">
+            <CustomSettings>
+              <Setting key="show_x_axis_grid" value="false" />
+            </CustomSettings>
+            <Filter enabled="false" showToolbar="false" unionType="all">
+              <Criterion attribute="Clip" comparator="Is" displayInToolbar="false" value="##ALL##" />
+            </Filter>
+          </Widget>
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="true" height="-1" id="5162dfd7-2360-45db-85d6-5ef6ebe39c7f" minHeight="-1" parentWidgetID="" position="2,2" showTitleBar="true" title="Collections Completed" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="b35836c7-4490-4135-8743-b985569d25d5">
+            <CustomSettings>
+              <Setting key="show_x_axis_grid" value="false" />
+              <Setting key="include_failed_collections" value="false" />
+              <Setting key="include_stopped_collections" value="false" />
+            </CustomSettings>
+            <Filter enabled="false" showToolbar="false" unionType="all">
+              <Criterion attribute="Clip" comparator="Is" displayInToolbar="false" value="##ALL##" />
+            </Filter>
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="437" internalID="5bb7acf0-55f7-4f2d-9e69-24b5201f1152" name="Collections Started" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3218" internalID="b35836c7-4490-4135-8743-b985569d25d5" name="Collections Completed" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

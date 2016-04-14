@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="9da837f410a1acb618a3df220e526566" name="Scratch Board" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" backgroundImageLayout="tiled" backgroundImageOpacity="1" dashboardSize="auto" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b0_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        <Filter enabled="true" showToolbar="true" unionType="all">
+          <Criterion attribute="Date/Time" comparator="11" displayInToolbar="true" secondaryValue="Seconds" tertiaryValue="America/Los_Angeles" value="300" />
+        </Filter>
+        <Widgets>
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+        
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="-1" id="cb625bba-93c9-4a48-a944-ba315b5f772f" minHeight="-1" parentWidgetID="" position="1,2" showTitleBar="true" title="Send Rate vs. Error Count" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="95a3db3d-c777-4d39-94ba-a3e807735fe7" xmlns="http://www.soasta.com/services/repository">
+            <SubordinateWidgetSettings>
+              <SubordinateWidget />
+              <SubordinateWidget />
+            </SubordinateWidgetSettings>
+            <CustomSettings>
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+              <Setting key="chart_color_theme_offset" value="4" />
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_max_value" value="" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_max_value_type" value="" />
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+              <Setting key="SOASTA_combined_widget_1_cs_plot_type" value="bar" />
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+              <Setting key="chart_color_theme" value="Progress" />
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="ffffff" />
+              <Setting key="show_x_axis_grid" value="false" />
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Send Rate" />
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_min_value" value="" />
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="Error Count" />
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+              <Setting key="SOASTA_combined_widget_1_cs_show_data_point_markers" value="false" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_title" value="Error Count" />
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="ffffff" />
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="SendRateWidgetLogic,ErrorRateWidgetLogic" />
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+            </CustomSettings>
+            <Filter enabled="false" showToolbar="false" unionType="all">
+              <Criterion attribute="Date/Time" comparator="6" displayInToolbar="false" secondaryValue="" tertiaryValue="" value="" />
+            </Filter>
+          </Widget>
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="-1" id="6dc545ea-4d70-4581-a9bd-e2923d66304e" minHeight="-1" parentWidgetID="" position="2,2" showTitleBar="true" title="Count of Clip Starts vs. Clips Completed" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="a4aaa4a8-00d2-4023-831f-b2dc80b13c9d" xmlns="http://www.soasta.com/services/repository">
+            <SubordinateWidgetSettings>
+              <SubordinateWidget />
+              <SubordinateWidget />
+            </SubordinateWidgetSettings>
+            <CustomSettings>
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+              <Setting key="SOASTA_combined_widget_0_widgetcategory" value="Charts/Counts" />
+              <Setting key="SOASTA_combined_widget_0_cs_y_axis_title" value="Clips Started" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_max_value" value="" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_max_value_type" value="" />
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+              <Setting key="SOASTA_combined_widget_1_cs_include_stopped_clips" value="true" />
+              <Setting key="SOASTA_combined_widget_1_cs_plot_type" value="line" />
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+              <Setting key="SOASTA_combined_widget_0_cs_y_axis_min_value" value="0" />
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="ffffff" />
+              <Setting key="SOASTA_combined_widget_1_cs_include_failed_clips" value="true" />
+              <Setting key="show_x_axis_grid" value="false" />
+              <Setting key="SOASTA_combined_widget_0_cs_y_axis_max_value" value="" />
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Count of Clip Starts" />
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_min_value" value="0" />
+              <Setting key="SOASTA_combined_widget_0_cs_show_data_point_markers" value="false" />
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="Clips Completed" />
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+              <Setting key="SOASTA_combined_widget_0_cs_plot_type" value="bar" />
+              <Setting key="SOASTA_combined_widget_1_cs_show_data_point_markers" value="false" />
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_title" value="Clips Completed" />
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="ffffff" />
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="CountOfClipStartsWidgetLogic,CountClipCompletionsPerPeriodByClipWidgetLogic" />
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+              <Setting key="SOASTA_combined_widget_1_widgetcategory" value="Charts/Counts" />
+              <Setting key="SOASTA_combined_widget_0_cs_y_axis_max_value_type" value="" />
+            </CustomSettings>
+            <Filter enabled="false" showToolbar="false" unionType="all">
+              <Criterion attribute="Clip" comparator="Is" displayInToolbar="false" value="##ALL##" />
+            </Filter>
+          </Widget>
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="-1" id="b4f5ee6d-45a6-409e-b665-630d7503e84b" minHeight="-1" parentWidgetID="" position="1,1" showTitleBar="true" title="Errors by Type over Time" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="2c31abda-ebe8-4f71-ae77-b57fa66c16d9" xmlns="http://www.soasta.com/services/repository" />
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="-1" id="5067e544-979b-4fa9-bbd7-ea1119f1e6d9" minHeight="-1" parentWidgetID="" position="2,1" showTitleBar="true" title="Virtual Users" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="df1961e0-f851-4f72-ae7d-1b0184d96d40" xmlns="http://www.soasta.com/services/repository" />
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="110" internalID="95a3db3d-c777-4d39-94ba-a3e807735fe7" name="Send Rate" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="a4aaa4a8-00d2-4023-831f-b2dc80b13c9d" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="440" internalID="2c31abda-ebe8-4f71-ae77-b57fa66c16d9" name="Errors by Type over Time" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="51" internalID="df1961e0-f851-4f72-ae7d-1b0184d96d40" name="Virtual Users" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

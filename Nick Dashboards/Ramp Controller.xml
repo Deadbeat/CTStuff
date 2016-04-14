@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="88bd295bcef93b270e477d26ec45fcca" name="Ramp Controller" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b0_c1" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        <Widgets>
+          <Widget color="26396d" height="-2" id="73d6ed17-5724-4166-8b12-aa7ea426d197" position="1,1" showTitleBar="true" title="Virtual User Ramp Controller" widgetTypeInternalID="682bc235-0e33-43ec-b239-0f4d97b47095">
+            <CustomSettings>
+              <Setting key="show_x_axis_grid" value="false" />
+            </CustomSettings>
+            <Filter enabled="false" showToolbar="false" unionType="all">
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" secondaryValue="" value="" />
+            </Filter>
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <References>
+      <Reference id="1050145" internalID="682bc235-0e33-43ec-b239-0f4d97b47095" name="Dynamic Ramp Controller" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+  </Object>
+</rp:ObjectSet>

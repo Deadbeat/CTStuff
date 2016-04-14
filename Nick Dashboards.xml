@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="folder" schemaVersion="9404" VCSUid="1a3b7730fe0998d58db97d957e32464b" name="Nick Dashboards" path="/">
+    <BinaryData />
+    <Description></Description>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

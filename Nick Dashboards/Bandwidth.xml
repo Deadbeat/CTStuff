@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="8c3bc60daf4c23daade62b6dd15db7d1" name="Bandwidth" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b0_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        <Widgets>
+          <Widget color="26396d" height="-1" id="55d75390-7df3-4243-bf50-7ea0cda44ff2" position="2,1" showTitleBar="true" title="Bandwidth Usage (Received)" widgetTypeInternalID="4550c8f8-c8fc-4a70-a112-18bb0d45632d" />
+          <Widget color="26396d" height="-1" id="fd0b54e1-7680-470e-893a-eb150c3a9cbc" position="1,2" showTitleBar="true" title="Bandwidth Usage (Sent)" widgetTypeInternalID="72c574e3-49b2-4cd2-a695-8340ee7d34ea" />
+          <Widget color="26396d" height="-1" id="e3be021c-79e2-4bfb-a40f-8747d6ebf665" position="2,2" showTitleBar="true" title="Bandwidth Usage per Domain" widgetTypeInternalID="b9313e08-9e1f-41af-86c7-3621d800174c" />
+          <Widget color="26396d" height="-1" id="bc6663cf-6c8a-4a22-b0db-cfe5ed4ea924" position="1,1" showTitleBar="true" title="Bandwidth Usage" widgetTypeInternalID="a0245c5e-aedc-42d0-9f84-60eea021188c" />
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="3211" internalID="a0245c5e-aedc-42d0-9f84-60eea021188c" name="Bandwidth Usage" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3214" internalID="b9313e08-9e1f-41af-86c7-3621d800174c" name="Bandwidth Usage per Domain" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3213" internalID="4550c8f8-c8fc-4a70-a112-18bb0d45632d" name="Bandwidth Usage (Received)" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3212" internalID="72c574e3-49b2-4cd2-a695-8340ee7d34ea" name="Bandwidth Usage (Sent)" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="56cd96e756d306c2ba73b586cb434eb5" name="Collection Analysis" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b0_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        <Filter enabled="true" showToolbar="true" unionType="all">
+          
+          <Criterion attribute="Collection" comparator="Is" displayInToolbar="true" secondaryValue="" value="##ALL##" />
+        
+        </Filter>
+      
+        <Widgets>
+          <Widget color="26396d" height="-1" id="0ca499ad-d973-49d3-a989-45c2421db4ef" position="2,1" showTitleBar="true" title="Collection Analysis (Hierarchical)" widgetTypeInternalID="e7a22409-95b0-4c86-8f18-f47b7791ce36" />
+          <Widget color="26396d" height="-1" id="eb28cbbb-c9d4-4112-9ec6-f7676e0610e1" position="1,1" showTitleBar="true" title="Collection Analysis (Grouped)" widgetTypeInternalID="53d57987-cd59-4fc8-8ed5-8c09fccf353c">
+        
+            <CustomSettings>
+          
+              <Setting key="percentile" value="90" />
+          
+              <Setting key="zValue" value="1.29" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="true" unionType="all">
+          
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="true" value="Transaction" />
+          
+              <Criterion attribute="Date/Time" comparator="5" displayInToolbar="false" secondaryValue="2013-06-21T16:50:00Z" value="2013-06-20T07:45:00Z" />
+        
+            </Filter>
+      
+          </Widget>
+          <Widget color="26396d" height="-1" id="1dc7686c-856e-4a5a-bd3f-770b0309078c" position="1,2" showTitleBar="true" title="Average Collection Duration" widgetTypeInternalID="d9f0cf5f-5cf3-4c74-8143-a1e88ab9a89e">
+        
+            <CustomSettings>
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="true" unionType="all">
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="true" value="" />
+          
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="true" value="Transaction" />
+        
+            </Filter>
+      
+          </Widget>
+          <Widget color="26396d" height="-1" id="d2d4b60d-bbef-484e-92a5-8223a0ff6f4c" position="2,2" showTitleBar="true" title="Total Collections Completed" widgetTypeInternalID="913773c7-b972-467b-acda-e6a20eadd3af">
+        
+            <CustomSettings>
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="true" unionType="all">
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="true" value="" />
+          
+              <Criterion attribute="Date/Time" comparator="11" displayInToolbar="true" secondaryValue="Seconds" value="60" />
+        
+            </Filter>
+      
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="30" internalID="d9f0cf5f-5cf3-4c74-8143-a1e88ab9a89e" name="Average Collection Duration" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="439" internalID="53d57987-cd59-4fc8-8ed5-8c09fccf353c" name="Collection Analysis (Grouped)" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="29505" internalID="913773c7-b972-467b-acda-e6a20eadd3af" name="Total Collections Completed" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="29024" internalID="e7a22409-95b0-4c86-8f18-f47b7791ce36" name="Collection Analysis (Hierarchical)" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

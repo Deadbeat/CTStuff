@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="ca232470ec09e97326e009ea5b6d2213" name="Performance" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="788497" backgroundImageLayout="tiled" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b1_c2_f1" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="10,10,10,10" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+          <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+        
+        
+        </Filter>
+      
+        
+        <Widgets>
+          
+          <Widget color="ffffff" height="265" id="9bd17043-e0c6-403f-902a-c02b1b98d166" linkedDashboardName="/Nick Dashboards/Load Analytics" position="2,1" showTitleBar="true" title="Transaction Response Time" widgetTypeInternalID="378eed75-d825-44ae-9f06-2451e7a95c64">
+        
+            
+            <CustomSettings>
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              
+              <Setting key="include_failed_collections" value="false" />
+          
+              
+              <Setting key="chart_color_theme_offset" value="2" />
+          
+              
+              <Setting key="include_stopped_collections" value="false" />
+          
+              
+              <Setting key="chart_color_theme" value="Default" />
+        
+            
+            </CustomSettings>
+        
+            
+            <Filter enabled="true" showToolbar="false" unionType="all">
+          
+              
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+        
+            
+            </Filter>
+      
+          
+          </Widget>
+          
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="-2" id="7cc15698-2511-4c31-b8d7-76879a63e57e" linkedDashboardName="/Nick Dashboards/Load Analytics" minHeight="-1" parentWidgetID="" position="4,1" showTitleBar="true" title="Collection Analysis" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="ecc1fae8-32a8-4c67-aa21-9a522e07203c" xmlns="http://www.soasta.com/services/repository">
+            
+            <CustomSettings>
+              
+              <Setting key="percentile" value="90" />
+              
+              <Setting key="zValue" value="1.29" />
+              
+              <Setting key="include_failed_collections" value="true" />
+              
+              <Setting key="include_stopped_collections" value="true" />
+            
+            </CustomSettings>
+            
+            <Filter enabled="true" showToolbar="false" unionType="all">
+              
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+            
+            </Filter>
+          
+          </Widget>
+          
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="110" id="ad964ac1-e974-491b-8bcc-23360270b858" linkedDashboardName="/Nick Dashboards/Load Analytics" minHeight="-1" parentWidgetID="" position="1,1" showTitleBar="true" title="Fundamentals" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="bd953843-a3d2-4fb5-8bbd-fb6f0ec3334a" xmlns="http://www.soasta.com/services/repository">
+            
+            <CustomSettings>
+              
+              <Setting key="include_elapsed_time" value="true" />
+              
+              <Setting key="include_page_count" value="false" />
+              
+              <Setting key="include_wait_error_count" value="false" />
+              
+              <Setting key="include_request_message_count" value="false" />
+              
+              <Setting key="include_composition_status" value="false" />
+              
+              <Setting key="include_open_websocket_count" value="false" />
+              
+              <Setting key="include_chain_count" value="false" />
+              
+              <Setting key="include_avg_response_time" value="true" />
+              
+              <Setting key="include_send_message_websocket_error_count" value="false" />
+              
+              <Setting key="include_error_script_count" value="true" />
+              
+              <Setting key="include_current_clip_count" value="false" />
+              
+              <Setting key="include_clip_count" value="false" />
+              
+              <Setting key="include_result_summary" value="false" />
+              
+              <Setting key="include_composition_debug_mode" value="false" />
+              
+              <Setting key="include_collections_rate" value="true" />
+              
+              <Setting key="include_open_websocket_error_count" value="false" />
+              
+              <Setting key="include_close_websocket_error_count" value="false" />
+              
+              <Setting key="include_total_bytes" value="false" />
+              
+              <Setting key="include_current_virtual_users" value="true" />
+              
+              <Setting key="include_result_name" value="false" />
+              
+              <Setting key="collections_rate_settings" value="{&quot;entries&quot;:[{&quot;collections&quot;:[&quot;All&quot;],&quot;collectionType&quot;:&quot;Transaction&quot;,&quot;startedCompleted&quot;:&quot;started&quot;,&quot;per&quot;:&quot;second&quot;,&quot;titleType&quot;:&quot;custom&quot;,&quot;customTitle&quot;:&quot;Calls/Sec&quot;}]}" />
+              
+              <Setting key="include_event_message_websocket_count" value="false" />
+              
+              <Setting key="include_start_time" value="false" />
+              
+              <Setting key="include_composition_save_details" value="false" />
+              
+              <Setting key="include_effective_throughput" value="true" />
+              
+              <Setting key="include_result_description" value="false" />
+              
+              <Setting key="include_end_time" value="false" />
+              
+              <Setting key="include_script_count" value="false" />
+              
+              <Setting key="include_wait_count" value="false" />
+              
+              <Setting key="include_group_count" value="false" />
+              
+              <Setting key="include_event_message_websocket_error_count" value="false" />
+              
+              <Setting key="include_composition_description" value="false" />
+              
+              <Setting key="include_sent_message_count" value="false" />
+              
+              <Setting key="include_close_websocket_count" value="false" />
+              
+              <Setting key="include_error_message_count" value="true" />
+              
+              <Setting key="include_composition_name" value="false" />
+              
+              <Setting key="include_transaction_count" value="false" />
+              
+              <Setting key="include_send_message_websocket_count" value="false" />
+              
+              <Setting key="include_composition_preview_mode" value="false" />
+              
+              <Setting key="include_virtual_users_running" value="true" />
+            
+            </CustomSettings>
+          
+          </Widget>
+          
+          <Widget alwaysShowWowTitleBar="false" color="ffffff" colorEdited="false" height="265" id="9cf6f091-7b77-41bf-90a4-95503a7faa59" linkedDashboardName="/Nick Dashboards/Load Analytics" minHeight="-1" parentWidgetID="" position="3,1" showTitleBar="true" title="Collections Completed" userSavedWidget="false" widgetCellConstrainToggle="false" widgetCellConstrainValue="" widgetCellHeight="" widgetCellIndex="" widgetCellLeft="" widgetCellOpacity="80" widgetCellTop="" widgetCellWidth="" widgetCellZIndex="" widgetTypeInternalID="90360dd1-efa5-4a94-bc63-615cbdbce091" xmlns="http://www.soasta.com/services/repository">
+            
+            <CustomSettings>
+              
+              <Setting key="y_axis_max_value_type" value="" />
+              
+              <Setting key="y_axis_max_value" value="" />
+              
+              <Setting key="plot_type" value="line" />
+              
+              <Setting key="show_x_axis_grid" value="false" />
+              
+              <Setting key="include_failed_collections" value="true" />
+              
+              <Setting key="chart_color_theme_offset" value="2" />
+              
+              <Setting key="y_axis_title" value="Collections Completed" />
+              
+              <Setting key="y_axis_min_value" value="" />
+              
+              <Setting key="include_stopped_collections" value="true" />
+              
+              <Setting key="show_data_point_markers" value="false" />
+              
+              <Setting key="chart_color_theme" value="Default" />
+            
+            </CustomSettings>
+            
+            <Filter enabled="true" showToolbar="false" unionType="all">
+              
+              <Criterion attribute="Collection" comparator="Is" displayInToolbar="false" value="Transaction" />
+            
+            </Filter>
+          
+          </Widget>
+        
+        </Widgets>
+      
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="439" internalID="ecc1fae8-32a8-4c67-aa21-9a522e07203c" name="Collection Analysis (Grouped)" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="3218" internalID="90360dd1-efa5-4a94-bc63-615cbdbce091" name="Collections Completed" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="30" internalID="378eed75-d825-44ae-9f06-2451e7a95c64" name="Average Collection Duration" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="66" internalID="bd953843-a3d2-4fb5-8bbd-fb6f0ec3334a" name="Fundamentals" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

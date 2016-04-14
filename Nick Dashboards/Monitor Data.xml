@@ -1,0 +1,768 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="6d914333acb282ecbfcfdd8ee4be2bf1" name="Monitor Data" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="788497" backgroundImageLayout="tiled" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b1_c2_f1" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        
+        <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+          <Criterion attribute="Clip" comparator="Is" displayInToolbar="false" value="##ALL##" />
+        
+        
+        </Filter>
+      
+      
+        <Widgets>
+          <Widget color="ffffff" height="-1" id="23a37649-28c3-4221-a1dc-d616ed82331d" position="1,2" showTitleBar="true" title="Virtual Users vs. CPU Percentage" widgetTypeInternalID="040ee972-f5bd-4592-abde-5dd5096aaf3d">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Virtual Users" />
+          
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="2" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="CPU Percentage" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="CountOfSimultaneousVirtualUsersWidgetLogic,CPUPercentage" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" secondaryValue="" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+          <Widget color="ffffff" height="-1" id="8ad7afbf-647e-46bd-83ec-da5c9933aa48" position="2,2" showTitleBar="true" title="Send Rate vs. IO KBytes Read vs. IO KBytes Written" widgetTypeInternalID="96cb0620-13d0-49ba-bf57-5d9f3624e2c3">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Send Rate" />
+          
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="IO KBytes Written" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_plot_type" value="area" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetname" value="IO KBytes Read" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="SendRateWidgetLogic,IOKBytesWrittenWidgetLogic,IOKBytesReadWidgetLogic" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+          <Widget color="ffffff" height="135" id="868cd9de-eb97-4881-8bd6-e2278531d0c5" position="1,1" showTitleBar="true" title="Average Response Time" widgetTypeInternalID="7a784bc9-a5e3-4b47-9ca5-06f2ad82f1ac">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="plot_type" value="line" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="5" />
+          
+          
+              <Setting key="y_axis_min_value" value="" />
+          
+          
+              <Setting key="show_data_point_markers" value="true" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" secondaryValue="" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+          <Widget color="ffffff" height="-1" id="8c4c53bd-5955-4149-8ff8-d4f58d6ceea0" position="3,1" showTitleBar="true" title="Virtual Users vs. Network Mbits Received vs. Network Mbits Sent" widgetTypeInternalID="4ca41efa-87c6-4802-827a-ecf889e9ea2d">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Virtual Users" />
+          
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="Network Mbits Sent" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_plot_type" value="area" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetname" value="Network Mbits Received" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="CountOfSimultaneousVirtualUsersWidgetLogic,NetworkMbitsSentWidgetLogic,NetworkMbitsReceivedWidgetLogic" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+          <Widget color="ffffff" height="-1" id="e8637734-0673-4f8b-9245-e7ec58f50a0b" position="3,2" showTitleBar="true" title="Send Rate vs. Network Mbits Received vs. Network Mbits Sent " widgetTypeInternalID="fffda74e-37bf-4b55-9423-d264d76b059d">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Send Rate" />
+          
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="Network Mbits Sent" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_plot_type" value="area" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetname" value="Network Mbits Received" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="SendRateWidgetLogic,NetworkMbitsSentWidgetLogic,NetworkMbitsReceivedWidgetLogic" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+          <Widget color="ffffff" height="-1" id="23181436-908b-4d7f-b309-0151052622cd" position="1,3" showTitleBar="true" title="Virtual Users vs. Memory Usage" widgetTypeInternalID="257aeda4-8529-46db-9f49-acd90c13a0e4">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Virtual Users" />
+          
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="2" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="Memory Usage" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_plot_type" value="area" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="CountOfSimultaneousVirtualUsersWidgetLogic,MemoryMonitor" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+          <Widget color="ffffff" height="-1" id="ba842363-3570-490b-a0c6-c08dc91e7b91" position="2,1" showTitleBar="true" title="Virtual Users vs. IO KBytes Read vs. IO KBytes Written" widgetTypeInternalID="bf57b9cc-67eb-4fcc-81fe-8bed0b42c7c0">
+        
+        
+            <CustomSettings>
+          
+          
+              <Setting key="SOASTA_combined_widget_1_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorids" value="" />
+          
+          
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_YAxisSide" value="R" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetheight" value="-1" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_monitor_filter_value_0" value="ALL" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="chart_color_theme" value="Default" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetname" value="Virtual Users" />
+          
+          
+              <Setting key="SOASTA_combined_widget_combo_type" value="combine" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_y_axis_min_value" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_cs_plot_type" value="line" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_resultid" value="0" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorids" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_widgetname" value="IO KBytes Written" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_YAxisSide" value="L" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_cs_plot_type" value="area" />
+          
+          
+              <Setting key="SOASTA_combined_widget_2_widgetname" value="IO KBytes Read" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_show_data_point_markers" value="false" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_cs_monitor_filter_colname_0" value="MonitorGroupAggregate.group_key" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_widgetcolor" value="26396d" />
+          
+          
+              <Setting key="SOASTA_combined_widget_1_monitorarg" value="" />
+          
+          
+              <Setting key="SOASTA_combined_widget_wl_classnames" value="CountOfSimultaneousVirtualUsersWidgetLogic,IOKBytesWrittenWidgetLogic,IOKBytesReadWidgetLogic" />
+          
+          
+              <Setting key="SOASTA_combined_widget_0_resultid" value="0" />
+        
+        
+            </CustomSettings>
+        
+        
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            </Filter>
+      
+      
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="1067348" internalID="bgimg" name="Default Dashboard Texture" path="%System Objects/Images" type="image" />
+      <Reference id="161" internalID="040ee972-f5bd-4592-abde-5dd5096aaf3d" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="96cb0620-13d0-49ba-bf57-5d9f3624e2c3" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="34" internalID="7a784bc9-a5e3-4b47-9ca5-06f2ad82f1ac" name="Average Response Time" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="4ca41efa-87c6-4802-827a-ecf889e9ea2d" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="fffda74e-37bf-4b55-9423-d264d76b059d" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="257aeda4-8529-46db-9f49-acd90c13a0e4" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="161" internalID="bf57b9cc-67eb-4fcc-81fe-8bed0b42c7c0" name="Combined Chart Base" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

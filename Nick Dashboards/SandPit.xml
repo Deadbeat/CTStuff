@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="2101611a182866c7fceea8a10cfdc94c" name="SandPit" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="e4e4e3" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b0_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        <Filter enabled="true" showToolbar="true" unionType="all">
+          
+          <Criterion attribute="Collection" comparator="Is" displayInToolbar="true" secondaryValue="" value="##ALL##" />
+        
+        </Filter>
+      
+        <Widgets>
+          <Widget color="26396d" height="-1" id="33260c69-e904-4a06-a92f-5ccf278283bc" position="2,1" showTitleBar="true" title="Collections in Progress" widgetTypeInternalID="b2d457a6-411d-443c-85c2-10b1375cc217" />
+          <Widget color="26396d" height="-1" id="214a31e8-061c-4807-b9f9-a130800a7527" position="1,1" showTitleBar="true" title="Collections Started" widgetTypeInternalID="300ac171-aabf-4cba-964d-147a2dd3d61a" />
+          <Widget color="26396d" height="-1" id="49d0f809-0bfb-4a3c-8a3a-46b9edd7671f" position="1,2" showTitleBar="true" title="Collections Completed" widgetTypeInternalID="ea469aed-6869-4c0e-9a7c-41df5787a4cc" />
+          <Widget color="26396d" height="-1" id="afb8e5a5-a15f-4e7a-ab7f-8ad3ac1d2703" position="2,2" showTitleBar="true" title="Average Collection Duration (Scenario 4)" widgetTypeInternalID="d9771e92-8097-4bc8-a2a4-9e7ac9d61968">
+        
+            <CustomSettings>
+          
+              <Setting key="show_x_axis_grid" value="false" />
+          
+              <Setting key="include_failed_collections" value="false" />
+          
+              <Setting key="include_stopped_collections" value="false" />
+        
+            </CustomSettings>
+        
+            <Filter enabled="true" showToolbar="true" unionType="all">
+          
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="true" value="" />
+          
+              <Criterion attribute="Clip" comparator="Is" displayInToolbar="true" value="##ALL##" />
+        
+            </Filter>
+      
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="3218" internalID="ea469aed-6869-4c0e-9a7c-41df5787a4cc" name="Collections Completed" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="438" internalID="b2d457a6-411d-443c-85c2-10b1375cc217" name="Collections in Progress" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="437" internalID="300ac171-aabf-4cba-964d-147a2dd3d61a" name="Collections Started" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="30" internalID="d9771e92-8097-4bc8-a2a4-9e7ac9d61968" name="Average Collection Duration" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

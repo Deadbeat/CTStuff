@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="6af56b5ae1db99c586d19b27423886f5" name="Detailed Error Analysis" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="788497" backgroundImageLayout="tiled" displayNameOnSurface="false" enableTimeRangeController="false" enableWidgetAnimations="true" layoutType="b1_c2" linkChartTimelines="true" timeRangeControllerOnSurface="false" widgetOrder="" widgetPadding="10,10,10,10" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+          
+          <Criterion attribute="Clip" comparator="Is" displayInToolbar="false" value="##ALL##" />
+        
+        
+        
+        </Filter>
+      
+      
+        
+        <Widgets>
+          
+          <Widget color="ffffff" height="110" id="6a26dfa3-02d2-4a68-bc80-b49d52e59b2e" linkedDashboardName="/Nick Dashboards/Performance" position="1,1" showTitleBar="true" title="Fundamentals" widgetTypeInternalID="e6ea14d5-a497-4f60-af05-564a539fd472">
+        
+            
+            <CustomSettings>
+          
+              
+              <Setting key="include_page_count" value="false" />
+          
+              
+              <Setting key="include_elapsed_time" value="true" />
+          
+              
+              <Setting key="include_request_message_count" value="false" />
+          
+              
+              <Setting key="include_composition_status" value="false" />
+          
+              
+              <Setting key="include_chain_count" value="false" />
+          
+              
+              <Setting key="include_avg_response_time" value="true" />
+          
+              
+              <Setting key="include_error_script_count" value="true" />
+          
+              
+              <Setting key="include_current_clip_count" value="false" />
+          
+              
+              <Setting key="include_composition_debug_mode" value="false" />
+          
+              
+              <Setting key="include_result_summary" value="false" />
+          
+              
+              <Setting key="include_clip_count" value="false" />
+          
+              
+              <Setting key="include_collections_rate" value="false" />
+          
+              
+              <Setting key="include_total_bytes" value="false" />
+          
+              
+              <Setting key="include_current_virtual_users" value="true" />
+          
+              
+              <Setting key="include_result_name" value="false" />
+          
+              
+              <Setting key="collections_rate_settings" value="{&quot;entries&quot;:[{&quot;collections&quot;:[&quot;All&quot;],&quot;collectionType&quot;:&quot;Transaction&quot;,&quot;startedCompleted&quot;:&quot;started&quot;,&quot;per&quot;:&quot;minute&quot;,&quot;titleType&quot;:&quot;custom&quot;,&quot;customTitle&quot;:&quot;&quot;}]}" />
+          
+              
+              <Setting key="include_start_time" value="false" />
+          
+              
+              <Setting key="include_composition_save_details" value="false" />
+          
+              
+              <Setting key="include_effective_throughput" value="true" />
+          
+              
+              <Setting key="include_result_description" value="false" />
+          
+              
+              <Setting key="include_end_time" value="false" />
+          
+              
+              <Setting key="include_script_count" value="false" />
+          
+              
+              <Setting key="include_group_count" value="false" />
+          
+              
+              <Setting key="include_composition_description" value="false" />
+          
+              
+              <Setting key="include_sent_message_count" value="false" />
+          
+              
+              <Setting key="include_composition_name" value="false" />
+          
+              
+              <Setting key="include_error_message_count" value="true" />
+          
+              
+              <Setting key="include_transaction_count" value="false" />
+          
+              
+              <Setting key="include_composition_preview_mode" value="false" />
+          
+              
+              <Setting key="include_virtual_users_running" value="true" />
+        
+            
+            </CustomSettings>
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+        
+              
+              <Criterion attribute="Date/Time" comparator="13" displayInToolbar="true" secondaryValue="" tertiaryValue="US/Pacific" value="" />
+            
+            </Filter>
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="592" id="ac7727e3-3569-46e2-9a96-e563b4298fb2" linkedDashboardName="/Nick Dashboards/Load Analytics" position="2,1" showTitleBar="true" title="Error Analysis" widgetTypeInternalID="389403e0-5644-43a0-b31e-6f7f5db6619c">
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+              
+              <Criterion attribute="Target" comparator="Is" displayInToolbar="false" value="##ALL##" />
+        
+            
+            </Filter>
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="275" id="7ef6d64e-1b90-4422-9cf1-8d3ada21d5d3" linkedDashboardName="/Nick Dashboards/Load Analytics" position="3,2" showTitleBar="true" title="Errors by Type over Time" widgetTypeInternalID="93ec7d76-870d-4749-a89b-66120cd97f9b">
+        
+        
+            
+            <CustomSettings>
+          
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              
+              <Setting key="chart_color_theme" value="Spectrum" />
+        
+        
+            
+            </CustomSettings>
+        
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            
+            </Filter>
+      
+      
+          
+          </Widget>
+          
+          <Widget color="ffffff" height="275" id="ddf9c74a-08f7-4230-a038-2c72ece6dcc0" linkedDashboardName="/Nick Dashboards/Load Analytics" position="3,1" showTitleBar="true" title="Error Count" widgetTypeInternalID="beaa95cc-4d37-4804-9676-c7d40123a137">
+        
+        
+            
+            <CustomSettings>
+          
+          
+              
+              <Setting key="show_x_axis_grid" value="false" />
+          
+          
+              
+              <Setting key="chart_color_theme_offset" value="3" />
+          
+          
+              
+              <Setting key="chart_color_theme" value="Spectrum" />
+        
+        
+            
+            </CustomSettings>
+        
+        
+            
+            <Filter enabled="false" showToolbar="false" unionType="all">
+          
+          
+              
+              <Criterion attribute="Time Format" comparator="Relative" displayInToolbar="false" value="" />
+        
+        
+            
+            </Filter>
+      
+      
+          
+          </Widget>
+        
+        </Widgets>
+      
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="66" internalID="e6ea14d5-a497-4f60-af05-564a539fd472" name="Fundamentals" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="64" internalID="beaa95cc-4d37-4804-9676-c7d40123a137" name="Error Count" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="440" internalID="93ec7d76-870d-4749-a89b-66120cd97f9b" name="Errors by Type over Time" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="61" internalID="389403e0-5644-43a0-b31e-6f7f5db6619c" name="Error Analysis" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

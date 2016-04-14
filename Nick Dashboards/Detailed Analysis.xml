@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="dashboard" schemaVersion="9404" VCSUid="92bc3c5819c7c131786b3ebcfeb6f45d" name="Detailed Analysis" path="/Nick Dashboards">
+    <Body>
+      <Dashboard backgroundColor="F3F3F3" displayNameOnSurface="true" layoutType="b0_c1" linkChartTimelines="true" widgetOrder="null" widgetPadding="5,5,5,5" windowFitType="scroll" xmlns="http://www.soasta.com/services/repository">
+        <Widgets>
+          <Widget color="26396d" height="-1" id="24ebfc8d-e7b2-44c2-9281-2e395f88f3c8" position="1,2" showTitleBar="true" title="URL Analysis" widgetTypeInternalID="fdf3f6a6-061c-4d99-a495-7646cfc38057" />
+          <Widget color="266d32" height="200" id="5a1347f5-43d1-4693-849d-167465c1b55c" position="1,1" showTitleBar="true" title="Clip Analysis" widgetTypeInternalID="675bf2d6-f5c8-4982-932d-f4cbcbce39a4">
+        
+        
+        
+            <CustomSettings>
+          
+          
+          
+              <Setting key="include_stopped_clips" value="false" />
+        
+        
+        
+            </CustomSettings>
+      
+      
+      
+          </Widget>
+        </Widgets>
+      </Dashboard>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <References>
+      <Reference id="3231" internalID="fdf3f6a6-061c-4d99-a495-7646cfc38057" name="URL Analysis" path="%System Objects/Widgets" type="dashboardwidgettype" />
+      <Reference id="47" internalID="675bf2d6-f5c8-4982-932d-f4cbcbce39a4" name="Clip Analysis" path="%System Objects/Widgets" type="dashboardwidgettype" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>
